@@ -1,11 +1,15 @@
 h1{
     color: #4A1472;
     font-size: 50px;
+     border-bottom: 2px solid #4A1472;
 
 }
 h2{
     color:  #4A1472;
    
+}
+h3{
+     color:  #4A1472;
 }
 p{
     color: #3D3D3D;
@@ -28,7 +32,8 @@ a:hover{
     text-decoration: none;
 }
 #hero{
-    background-color:  #FAF6EE;
+    background: linear-gradient(to bottom, #ffc6ff, #EDE4F7 );
+
 }
 #sobre{
     background-color:  #EDE4F7  ;
@@ -47,11 +52,15 @@ a:hover{
     color: #FFF6EA;
 }
 footer{
+     background: linear-gradient(to bottom, #EDE4F7, #ffc6ff );
+    color: #FFF6EA;
     background-color:  #EDE4F7;
+    
 }
 body{
     background-color: #FAF6EE;
     color: #3D3D3D;
+     background: linear-gradient(#FAF6EE, #EDE4F7);
 }
 body{
     font-family: Times New Roman;
@@ -64,9 +73,9 @@ body{
     box-sizing: border-box;
 }
 .projetos-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+   display: flex;
+   flex-direction: column;
+    gap: 10px;
 }
 nav{
    display: flex;
@@ -85,3 +94,4 @@ header{
     align-items: center;
     flex-direction: column;
 }
+
