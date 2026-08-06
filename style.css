@@ -80,6 +80,10 @@ body{
 nav{
    display: flex;
     gap: 20px;
+    
+     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 img {
     width: 200px;
@@ -113,4 +117,10 @@ button, input[type="submit"] {
 
 button:hover {
     background-color: #B8860B;
+}
+@media (min-width: 700px) {
+    nav{
+        flex-direction: row;
+        justify-content: center;
+    }
 }
