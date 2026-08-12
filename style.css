@@ -32,35 +32,31 @@ a:hover{
     text-decoration: none;
 }
 #hero{
-    background: linear-gradient(to bottom, #ffc6ff, #EDE4F7 );
+     background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
 
 }
 #sobre{
-    background-color:  #EDE4F7  ;
+     background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
 }
 #habilidades{
-    background-color:  #FAF6EE;
+   background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
 }
 #projetos{
-    background-color:  #EDE4F7;
+     background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
 }
 #contato{
-    background-color: #FAF6EE ;
+     background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
 }
 #footer{
-    background-color:  #2D1B4E;
-    color: #FFF6EA;
+   background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
 }
 footer{
-     background: linear-gradient(to bottom, #EDE4F7, #ffc6ff );
-    color: #FFF6EA;
-    background-color:  #EDE4F7;
+    background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
     
 }
 body{
-    background-color: #FAF6EE;
+     background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
     color: #3D3D3D;
-     background: linear-gradient(#FAF6EE, #EDE4F7);
 }
 body{
     font-family: Times New Roman;
