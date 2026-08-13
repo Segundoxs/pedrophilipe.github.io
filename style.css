@@ -33,30 +33,58 @@ a:hover{
 }
 #hero{
      background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
+     background-color: #EDE4F7;
+    border: 0px solid #4A1472;
+    border-radius: 22px;
+    padding: 30px;
 
 }
 #sobre{
      background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
+     background-color: #EDE4F7;
+    border: 0px solid #4A1472;
+    border-radius: 22px;
+    padding: 30px;
 }
 #habilidades{
    background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
+     background-color: #EDE4F7;
+    border: 0px solid #4A1472;
+    border-radius: 22px;
+    padding: 30px;
 }
 #projetos{
      background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
+     background-color: #EDE4F7;
+    border: 0px solid #4A1472;
+    border-radius: 22px;
+    padding: 30px;
 }
 #contato{
      background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
+     background-color: #EDE4F7;
+    border: 0px solid #4A1472;
+    border-radius: 22px;
+    padding: 30px;
 }
 #footer{
    background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
+     background-color: #EDE4F7;
+    border: 0px solid #4A1472;
+    border-radius: 22px;
+    padding: 30px;
 }
 footer{
     background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
+     background-color: #EDE4F7;
+    border: 0px solid #4A1472;
+    border-radius: 22px;
+    padding: 30px;
     
 }
 body{
      background:linear-gradient(to bottom, #EDE4F7,#C9B8DD );
-    color: #3D3D3D;
+    
 }
 body{
     font-family: Times New Roman;
