@@ -1,142 +1,168 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UFT-8">
-
+    <meta charset="UTF-8">
     <meta
-    nome="descrição"
-    content="Portifólio pessoal de Pedro Philipe , desenvolvedor Front - End . Conheça meus projetos, habilidades e formas de contato. " >
-
+    name="description"
+    content="Portfólio pessoal de Pedro Philipe, desenvolvedor Front-End. Conheça meus projetos, habilidades e formas de contato.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title> Pedro Philipe| Portfólio </title>   
+    <title>Pedro Philipe | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Pedro Philipe</h1>
-        <p> desenvolvedor Front-End</p>
-
+        <p class="cargo">Desenvolvedor Front-End</p>
+        <p class="info-contato">(81) 9 8300-9167 | pedrophilipe2019@gmail.com | Recife - PE | 22 anos</p>
         <nav>
             <a href="#hero">Início</a>
             <a href="#sobre">|Sobre</a>
             <a href="#habilidades">|Habilidades</a>
-            <a href="projetos"> |Projetos</a>
-            <a href="contato">|contato</a>
-
+            <a href="#projetos">|Projetos</a>
+            <a href="#contato">|Contato</a>
         </nav>
-
     </header>
-    
+
     <main>
         <section id="hero">
             <h2>Olá, eu sou Pedro Philipe</h2>
             <img
             src="imagens/psykho.png"
-            alt="Foto de psykho">
+            alt="Foto de Pedro Philipe">
             <p>
-                Eu sou estudante de desenvolvedor web e estou construindo
-                meu Portfólio para compartilhar meus projetos e aprendizados.
+                Jovem profissional com interesse na área de Tecnologia da Informação,
+                estudante de desenvolvimento web e construindo meu portfólio para
+                compartilhar meus projetos e aprendizados. Busco oportunidades para
+                crescer profissionalmente e aplicar meus conhecimentos em ambientes dinâmicos.
             </p>
         </section>
+
         <section id="sobre">
-            <h2> Sobre Mim</h2>
-
-            <P>
+            <h2>Sobre Mim</h2>
+            <p>
                 Tenho interesse em desenvolvimento web e estou aprendendo
-                HTML,CSS e outras tecnologias para criar sites mordenos.
-            </P>
-        </section>
-        <section id="habilidades">
-            <h2> Habilidades</h2>
+                HTML, CSS, JavaScript e outras tecnologias para criar sites modernos.
+                Sou responsável, organizado e trabalho bem em equipe.
+            </p>
 
-            <ul>
-                <lI>HTML</lI>
-                <li>CSS</li>
-                <li>Git e Github</li>
-            </ul>
+            <h4>Formação</h4>
+            <div class="formacao-item">
+                <p><strong>Ensino Médio Completo</strong> (2022)<br>
+                Escola Técnica Maximiniano Accyoli Campos</p>
+            </div>
+
+            <h4>Experiência Profissional</h4>
+            <div class="experiencia-item">
+                <p><strong>Jovem Aprendiz</strong> — Mix Mateus (2026)<br>
+                Atuei no setor de reposição, garantindo a organização, abastecimento e
+                disponibilidade dos produtos nas prateleiras. Também participei da produção
+                de vídeos comemorativos para eventos e datas especiais da loja, contribuindo
+                com o clima organizacional e a integração da equipe.</p>
+            </div>
+
+            <h4>Cursos Complementares</h4>
+            <div class="curso-item">
+                <p><strong>Técnico em Redes de Computadores</strong> — Cybersecurity Essentials (2022)</p>
+            </div>
+            <div class="curso-item">
+                <p><strong>Front-End com JavaScript</strong> (Em andamento)<br>
+                Programa Transforme-Se, Serasa Experian e Gerando Falcões, no Senac</p>
+            </div>
+
+            <button id="botao-sobre">Ver mais</button>
+            <div id="Novo-texto"></div>
         </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidades-grid">
+                <div class="habilidade-item">HTML <span class="nivel">(Intermediário)</span></div>
+                <div class="habilidade-item">CSS <span class="nivel">(Intermediário)</span></div>
+                <div class="habilidade-item">JavaScript <span class="nivel">(Básico)</span></div>
+                <div class="habilidade-item">Git e GitHub <span class="nivel">(Básico)</span></div>
+                <div class="habilidade-item">Lógica de Programação <span class="nivel">(Básico)</span></div>
+                <div class="habilidade-item">Excel <span class="nivel">(Básico)</span></div>
+                <div class="habilidade-item">Word <span class="nivel">(Básico)</span></div>
+                <div class="habilidade-item">Power Point <span class="nivel">(Básico)</span></div>
+                <div class="habilidade-item">Informática <span class="nivel">(Intermediário)</span></div>
+            </div>
+        </section>
+
         <section id="projetos">
             <h2>Projetos</h2>
-           <div class="projetos-grid">
+            <div class="projetos-grid">
                 <article>
-                    <h3> Landing Page </h3>
-                    <P>
-                         Página criada utilizando HTML e CSS.
-                    </P>
+                    <h3>Landing Page</h3>
+                    <p>
+                        Página criada utilizando HTML e CSS.
+                    </p>
                 </article>
                 <article>
-                    <h3> Currículo Online </h3>
-                    <P>
-                    Versão atual do meu portfólio.
-                    </P>
+                    <h3>Currículo Online</h3>
+                    <p>
+                        Versão atual do meu portfólio.
+                    </p>
                 </article>
                 <article>
-                    <h3> Site Responsivo </h3>
-                    <P>
+                    <h3>Site Responsivo</h3>
+                    <p>
                         Projeto desenvolvido para praticar CSS.
-                    </P>
+                    </p>
                 </article>
             </div>
-            
         </section>
 
         <section id="contato">
-
             <h2>Entre em Contato</h2>
-
             <form action="#" method="post">
                 <p>
                     <label for="nome">Nome</label><br>
-
                     <input
                     type="text"
                     id="nome"
                     name="nome">
-
                 </p>
-                <P>
+                <p>
                     <label for="email">E-mail</label><br>
-
-                    <input 
+                    <input
                     type="email"
                     id="email"
                     name="email">
-                </P>
-                
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="4"></textarea><br>
+                    <span id="contador">0 caracteres</span>
+                </p>
                 <p>
                     <input
                     type="submit"
                     value="Enviar">
                 </p>
-            
+                <div id="mensagem-sucesso"></div>
             </form>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Pedro Philipe</p>
-
-        <p>E-mail:pedrophilipe2019@gmail.com</p>
-
-        <P>
-            <a href="https://github.com/Segundoxs"  target="_blank" rel="noopener noreferrer" class="link-social">
-    GitHub |
-</a>
-            
+        <p>E-mail: pedrophilipe2019@gmail.com</p>
+        <p>
+            <a href="https://github.com/Segundoxs" target="_blank" rel="noopener noreferrer" class="link-social">
+                GitHub |
+            </a>
             <a href="https://www.linkedin.com/in/pedro-philipe-48b86425b" target="_blank" rel="noopener noreferrer" class="link-social">
-    LinkedIn
-</a>
-        </P>
-
+                LinkedIn
+            </a>
+        </p>
     </footer>
 
-
+    <script src="script.js"></script>
 </body>
-
-
 </html>
