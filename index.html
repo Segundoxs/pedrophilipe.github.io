@@ -2,165 +2,197 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta
-    name="description"
-    content="Portfólio pessoal de Pedro Philipe, desenvolvedor Front-End. Conheça meus projetos, habilidades e formas de contato.">
+    <meta name="description" content="Portfólio pessoal de Pedro Philipe, desenvolvedor Front-End. Conheça meus projetos, habilidades e formas de contato.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4/fonts/remixicon.css">
     <title>Pedro Philipe | Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Pedro Philipe</h1>
-        <p class="cargo">Desenvolvedor Front-End</p>
-        <p class="info-contato"> pedrophilipe2019@gmail.com | Recife - PE | 22 anos</p>
-        <nav>
-            <a href="#hero">Início</a>
-            <a href="#sobre">|Sobre</a>
-            <a href="#habilidades">|Habilidades</a>
-            <a href="#projetos">|Projetos</a>
-            <a href="#contato">|Contato</a>
-        </nav>
-    </header>
+    <div class="bg-decoration">
+        <div class="bg-circle c1"></div>
+        <div class="bg-circle c2"></div>
+    </div>
 
-    <main>
-        <section id="hero">
-            <h2>Olá, eu sou Pedro Philipe</h2>
-            <img
-            src="imagens/psykho.png"
-            alt="Foto de Pedro Philipe">
-            <p>
-                Jovem profissional com interesse na área de Tecnologia da Informação,
-                estudante de desenvolvimento web e construindo meu portfólio para
-                compartilhar meus projetos e aprendizados. Busco oportunidades para
-                crescer profissionalmente e aplicar meus conhecimentos em ambientes dinâmicos.
-            </p>
-        </section>
-
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>
-                Tenho interesse em desenvolvimento web e estou aprendendo
-                HTML, CSS, JavaScript e outras tecnologias para criar sites modernos.
-                Sou responsável, organizado e trabalho bem em equipe.
-            </p>
-
-            <h4>Formação</h4>
-            <div class="formacao-item">
-                <p><strong>Ensino Médio Completo</strong> (2022)<br>
-                Escola Técnica Maximiniano Accyoli Campos</p>
+    <nav>
+        <div class="nav-inner">
+            <div class="nav-logo">Pedro<span>.</span></div>
+            <div class="nav-links">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
             </div>
+        </div>
+    </nav>
 
-            <h4>Experiência Profissional</h4>
-            <div class="experiencia-item">
-                <p><strong>Jovem Aprendiz</strong> — Mix Mateus (2026)<br>
-                Atuei no setor de reposição, garantindo a organização, abastecimento e
-                disponibilidade dos produtos nas prateleiras. Também participei da produção
-                de vídeos comemorativos para eventos e datas especiais da loja, contribuindo
-                com o clima organizacional e a integração da equipe.</p>
+    <section class="hero" id="inicio">
+        <div class="reveal">
+            <p class="eyebrow">Portfólio Pessoal</p>
+            <h1>Olá, eu sou <span class="gradient-text">Pedro Philipe</span></h1>
+            <p class="role">Desenvolvedor Front-End</p>
+            <p>Jovem profissional apaixonado por tecnologia, estudante de desenvolvimento web construindo experiências digitais modernas e responsivas. Busco oportunidades para crescer e aplicar meus conhecimentos.</p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn-primary">
+                    <i class="ri-folder-3-line"></i> Ver Projetos
+                </a>
+                <a href="#contato" class="btn-secondary">
+                    <i class="ri-mail-line"></i> Entre em Contato
+                </a>
             </div>
-
-            <h4>Cursos Complementares</h4>
-            <div class="curso-item">
-                <p><strong>Técnico em Redes de Computadores</strong> — Cybersecurity Essentials (2022)</p>
+                    <div class="contact-item">
+                    <i class="ri-map-pin-line"></i>
+                    <span>Recife - PE</span>
+                </div>
+                <div class="contact-item">
+                    <i class="ri-user-line"></i>
+                    <span>22 anos</span>
+                </div>
             </div>
-            <div class="curso-item">
-                <p><strong>Front-End com JavaScript</strong> (Em andamento)<br>
-                Programa Transforme-Se, Serasa Experian e Gerando Falcões, no Senac</p>
+        </div>
+        <div class="hero-image reveal">
+            <div class="hero-image-inner">
+                <img src="Imagem/Pedro.jpeg" alt="Pedro Philipe" >
             </div>
+        </div>
+    </section>
 
-            <button id="botao-sobre">Ver mais</button>
-            <div id="Novo-texto"></div>
-        </section>
-
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <div class="habilidades-grid">
-                <div class="habilidade-item">HTML <span class="nivel">(Intermediário)</span></div>
-                <div class="habilidade-item">CSS <span class="nivel">(Intermediário)</span></div>
-                <div class="habilidade-item">JavaScript <span class="nivel">(Básico)</span></div>
-                <div class="habilidade-item">Git e GitHub <span class="nivel">(Básico)</span></div>
-                <div class="habilidade-item">Lógica de Programação <span class="nivel">(Básico)</span></div>
-                <div class="habilidade-item">Excel <span class="nivel">(Básico)</span></div>
-                <div class="habilidade-item">Word <span class="nivel">(Básico)</span></div>
-                <div class="habilidade-item">Power Point <span class="nivel">(Básico)</span></div>
-                <div class="habilidade-item">Informática <span class="nivel">(Intermediário)</span></div>
+    <section id="sobre">
+        <div class="section-header reveal">
+            <p class="eyebrow">Quem sou eu</p>
+            <h2 class="section-title">Sobre Mim</h2>
+        </div>
+        <div class="sobre-content">
+            <div class="sobre-texto reveal">
+                <p>Tenho grande interesse em desenvolvimento web e estou constantemente aprendendo <strong>HTML, CSS, JavaScript</strong> e outras tecnologias para criar sites modernos, funcionais e visualmente atraentes.</p>
+                <p>Sou uma pessoa <strong>responsável, organizada</strong> e que trabalha muito bem em equipe. Acredito que a tecnologia tem o poder de transformar vidas e estou pronto para fazer parte dessa transformação.</p>
+                <p>Atualmente participo do programa <strong class="dourado">Transforme-Se</strong> da Serasa Experian em parceria com Gerando Falcões e Senac, onde estou me especializando em Front-End com JavaScript.</p>
             </div>
-        </section>
-
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="projetos-grid">
-                <article>
-                    <h3>Landing Page</h3>
-                    <p>
-                        Página criada utilizando HTML e CSS.
-                    </p>
-                </article>
-                <article>
-                    <h3>Currículo Online</h3>
-                    <p>
-                        Versão atual do meu portfólio.
-                    </p>
-                </article>
-                <article>
-                    <h3>Site Responsivo</h3>
-                    <p>
-                        Projeto desenvolvido para praticar CSS.
-                    </p>
-                </article>
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <h4><i class="ri-graduation-cap-line"></i>Ensino Médio Completo</h4>
+                    <div class="periodo">2022</div>
+                    <p>Escola Técnica Maximiniano Accyoli Campos</p>
+                </div>
+                <div class="timeline-item">
+                    <h4><i class="ri-briefcase-line"></i>Jovem Aprendiz — Mix Mateus</h4>
+                    <div class="periodo">2026</div>
+                    <p>Atuei na reposição, organização e abastecimento de produtos. Também produzi vídeos comemorativos para eventos da loja.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4><i class="ri-book-open-line"></i>Técnico em Redes — Cybersecurity Essentials</h4>
+                    <div class="periodo">2022</div>
+                    <p>Curso complementar em redes de computadores e segurança cibernética.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4><i class="ri-code-box-line"></i>Front-End com JavaScript</h4>
+                    <div class="periodo">Em andamento</div>
+                    <p>Programa Transforme-Se — Serasa Experian, Gerando Falcões e Senac.</p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="contato">
-            <h2>Entre em Contato</h2>
-            <form action="#" method="post">
-                <p>
-                    <label for="nome">Nome</label><br>
-                    <input
-                    type="text"
-                    id="nome"
-                    name="nome">
-                </p>
-                <p>
-                    <label for="email">E-mail</label><br>
-                    <input
-                    type="email"
-                    id="email"
-                    name="email">
-                </p>
-                <p>
-                    <label for="mensagem">Mensagem</label><br>
-                    <textarea
-                    id="mensagem"
-                    name="mensagem"
-                    rows="4"></textarea><br>
-                    <span id="contador">0 caracteres</span>
-                </p>
-                <p>
-                    <input
-                    type="submit"
-                    value="Enviar">
-                </p>
-                <div id="mensagem-sucesso"></div>
-            </form>
-        </section>
-    </main>
+    <section id="habilidades">
+        <div class="section-header reveal">
+            <p class="eyebrow">O que eu sei fazer</p>
+            <h2 class="section-title">Habilidades</h2>
+        </div>
+        <div class="habilidades-grid" id="habilidades-grid"></div>
+    </section>
+
+    <section id="projetos">
+        <div class="section-header reveal">
+            <p class="eyebrow">Meu trabalho</p>
+            <h2 class="section-title">Projetos</h2>
+        </div>
+        <div class="projetos-grid" id="projetos-grid"></div>
+    </section>
+
+    <section id="contato">
+        <div class="section-header reveal">
+            <p class="eyebrow">Vamos conversar</p>
+            <h2 class="section-title">Entre em Contato</h2>
+        </div>
+        <div class="contato-wrapper">
+            <div class="contato-info-card reveal">
+                <h3>Informações de Contato</h3>
+                <div class="contato-info-item">
+                    <i class="ri-mail-line"></i>
+                    <div>
+                        <div class="label">E-mail</div>
+                        <div class="valor">pedrophilipe2019@gmail.com</div>
+                    </div>
+                </div>
+                
+                <div class="contato-info-item">
+                    <i class="ri-map-pin-line"></i>
+                    <div>
+                        <div class="label">Localização</div>
+                        <div class="valor">Recife, Pernambuco</div>
+                    </div>
+                </div>
+                <div style="margin-top:24px">
+                    <p class="rede-label">Me siga nas redes</p>
+                    <div class="redes-sociais">
+                        <a href="https://github.com/Segundoxs" target="_blank" rel="noopener" class="rede-social github" title="GitHub">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pedro-philipe-48b86425b" target="_blank" rel="noopener" class="rede-social linkedin" title="LinkedIn">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/pedro_philipe01/" target="_blank" rel="noopener" class="rede-social instagram" title="Instagram">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal">
+                <form id="form-contato">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem..." maxlength="500"></textarea>
+                        <div class="char-count"><span id="contador">0</span> / 500 caracteres</div>
+                    </div>
+                    <button type="submit" class="btn-primary btn-full">
+                        <i class="ri-send-plane-line"></i> Enviar Mensagem
+                    </button>
+                    <div class="mensagem-sucesso" id="mensagem-sucesso">
+                        <i class="ri-checkbox-circle-line"></i>
+                        Mensagem enviada com sucesso! Entrarei em contato em breve.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2026 Pedro Philipe</p>
-        <p>E-mail: pedrophilipe2019@gmail.com</p>
-        <p>
-            <a href="https://github.com/Segundoxs" target="_blank" rel="noopener noreferrer" class="link-social">
-                GitHub |
-            </a>
-            <a href="https://www.linkedin.com/in/pedro-philipe-48b86425b" target="_blank" rel="noopener noreferrer" class="link-social">
-                LinkedIn
-            </a>
-        </p>
+        <div class="footer-inner">
+            <div class="footer-logo">Pedro Philipe<span>.</span></div>
+            <p class="footer-copy">© 2026 Pedro Philipe — Todos os direitos reservados. </p>
+                <a href="https://github.com/Segundoxs" target="_blank" rel="noopener" class="rede-social github" title="GitHub">
+                    <i class="ri-github-fill"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/pedro-philipe-48b86425b" target="_blank" rel="noopener" class="rede-social linkedin" title="LinkedIn">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/pedro_philipe01/" target="_blank" rel="noopener" class="rede-social instagram" title="Instagram">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
